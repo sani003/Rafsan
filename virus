@@ -1,0 +1,32 @@
+$ covidify
+Usage: covidify [OPTIONS] COMMAND [ARGS]...
+
+  ☣  COVIDIFY ☣
+
+   - use the most up-to-date data to generate reports of 
+     confirmed cases, fatalities and recoveries.
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  list  List all the countries that have confirmed cases.
+  run   Generate reports for global cases or refine by country
+  
+ Example Commands:
+  
+  
+  $ covidify run --help
+Usage: covidify run [OPTIONS]
+
+Options:
+  --output TEXT    Folder to output data and reports [Default:
+                   /Users/award40/Desktop/covidify-output/]
+  --source TEXT    There are two datasources to choose from, Johns Hopkins
+                   github repo or wikipedia -- options are JHU or wiki
+                   respectively [Default: JHU]
+  --country TEXT   Filter reports by a country
+  --top TEXT       Top N infected countries for log plot. [Default: 10]
+  --forecast TEXT  Number of days to forecast cumulative cases in the future.
+                   [Default: 15]
+  --help           Show this message and exit
