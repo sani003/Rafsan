@@ -1,12 +1,20 @@
-# S A N I
- hacker bd 
-termux toll x 
+Covidify downloads the latest covid-19 data for confirmed cases, deaths and recoveries.
 
-$  apt update 
-$ apt install git 
-$ git clone https://github.com/rajkumardusad/Tool-X.git
-$ cd Tool-X 
-$ chmod +x install
-$ sh install or ./install
-$
-$ type Tool-X or toolx from anywhere in your terminal to open Tool-X.
+Creates a time series dataset
+
+Creates a daily stats dataset
+
+Forecast global and country confirmed cases
+
+Generate visualizations
+
+
+Filter by country
+
+List all countries affected
+
+Shows number of people currently infected
+
+
+Generates an excel report including all of the above
+
